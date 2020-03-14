@@ -7,10 +7,13 @@ public:
     Simon(int count);
 
     void print();
+
     void cinCount();
+
     void done();
 
     int setCount(int c);
+
     int getCount();
 
 private:

@@ -3,7 +3,7 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <libraryRoots>
-      <file path="$PROJECT_DIR$/Simon" />
+      <file path="$PROJECT_DIR$/module-2/Simon" />
     </libraryRoots>
   </component>
   <component name="JavaScriptSettings">
