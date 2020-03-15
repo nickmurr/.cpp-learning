@@ -1,15 +1,11 @@
-#include "module-2/Tasks/Tasks.h"
+#include "module-3/Tasks.h"
 #include "iostream"
 
 using namespace std;
 
 int main() {
-//    Tasks::userInfo();
-//    Tasks::toYard();
-//    Tasks::ageInMonth();
-    int c;
-    cout << "Enter a Celcius value: ";
-    cin >> c;
-    cout << c << " degrees Celsius is " << Tasks::toFahrengeit(c) << " degrees Fahrenheit" << endl;
+    long sec = 31600001;
+    Date date = Tasks::toDate(sec);
+
     return 0;
 }
